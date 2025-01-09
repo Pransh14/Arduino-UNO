@@ -1,0 +1,35 @@
+const int a=10;
+const int b=11;
+const int c=12;
+const int d=13;
+const int e=9;
+void setup() {
+ pinMode(a, OUTPUT);
+ pinMode(b, OUTPUT);
+ pinMode(c, OUTPUT);
+ pinMode(d, OUTPUT);
+ pinMode(e, OUTPUT);
+
+}
+void loop() {
+  digitalWrite(a, HIGH);
+  delay(1000);
+  digitalWrite(a, LOW);
+  delay(1000);
+  digitalWrite(b, HIGH);
+  delay(1000);
+  digitalWrite(b, LOW);
+  delay(1000);
+  digitalWrite(c, HIGH);
+  delay(1000);
+  digitalWrite(c, LOW);
+  delay(1000);
+  digitalWrite(d, HIGH);
+  delay(1000);
+  digitalWrite(d, LOW);
+  delay(1000);
+  digitalWrite(e, HIGH);
+  delay(1000);
+  digitalWrite(e, LOW);
+  delay(1000);
+}
